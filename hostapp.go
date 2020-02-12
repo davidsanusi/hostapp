@@ -12,7 +12,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 	if err != nil {
 		log.Fatal(err) // Send error message to log output
 	}
-	fmt.Fprintln(w, "Hello, 世界. You are connected to host", myHost)
+	fmt.Fprintln(w, "Greetings World, 世界. You are connected to host", myHost)
 }
 
 func main() {
