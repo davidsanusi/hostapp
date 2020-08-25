@@ -42,6 +42,10 @@ func main() {
         fmt.Fprintf(w, "Amen endpoint")
     })
 
+    http.HandleFunc("/payment", func(w http.ResponseWriter, r *http.Request){
+        fmt.Fprintf(w, "payment endpoint")
+    })
+
     log.Fatal(http.ListenAndServe(":8081", nil))
 
 }
