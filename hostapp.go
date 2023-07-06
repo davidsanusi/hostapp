@@ -51,4 +51,3 @@ func main() {
 }
 
 // This is to test git revert 
-// This is to test git revert 2
