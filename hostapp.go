@@ -50,5 +50,7 @@ func main() {
 
 }
 
-// Added comment to test git ammend
-// Added comment to actually run the git ammend
+// Added comment to test git amend
+// Added comment to actually run the git amend
+// Option three for git amend
+// Option four for git amend stated
